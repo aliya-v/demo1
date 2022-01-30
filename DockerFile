@@ -1,4 +1,4 @@
 FROM openjdk:8
-ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+EXPOSE 8090
+ADD target/sb-doc-jen-integration.jar sb-doc-jen-integration.jar
+ENTRYPOINT ["java","-jar","/sb-doc-jen-integration.jar"]

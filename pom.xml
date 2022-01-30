@@ -38,7 +38,7 @@
 			</plugin>
 		</plugins>
 
-		<finalName>sb-docker-jenkins-sample</finalName>
+		<finalName>sb-doc-jen-integration</finalName>
 	</build>
 
 </project>
