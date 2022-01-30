@@ -37,6 +37,8 @@
 				<version>${parent.version}</version>
 			</plugin>
 		</plugins>
+
+		<finalName>sb-docker-jenkins-sample</finalName>
 	</build>
 
 </project>
