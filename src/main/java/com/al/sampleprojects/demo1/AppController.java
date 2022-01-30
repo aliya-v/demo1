@@ -11,7 +11,7 @@ public class AppController {
 @ResponseBody
     public String callHello(){
         System.out.println("Hello from demo1");
-         return "Hello from demo1";
+         return "New Hello from demo1";
     }
 
 }
